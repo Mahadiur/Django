@@ -1,0 +1,10 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: cadetblue;
+    color: black;
+}
+
+tr{
+    margin-bottom: 30px;
+}

@@ -1,13 +1,38 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Django Home Page</title>
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
 </head>
 <body>
-    <h1>Now jouney of web deployment is start ...</h1>
-    <input type="text" placeholder="inter your name ...">
-    <input type="text" placeholder="Password ...">
+    <div>
+        <h1>Welcome to Django</h1>
+        <img src="{% static 'image/django.jpg' %}" alt="" width="300">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>Mahadi</td>
+                <td>CEO</td>
+                <td>09987665443</td>
+            </tr>
+            <tr>
+                <td>karim</td>
+                <td>manager</td>
+                <td>09876543212</td>
+            </tr>
+            <tr>
+                <td>rohim</td>
+                <td>assistent manager</td>
+                <td>01234567889</td>
+            </tr>
+        </table>
+    </div>  
 </body>
 </html>
